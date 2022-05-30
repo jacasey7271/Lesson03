@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=PT+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
 	  <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Assignment3</title>
   </head>
@@ -10,46 +13,83 @@
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>John Casey</h1>
-        <h2>Web Designer</h2>
-
-        <p>Hello I am John Casey i have experience in graphic design, advertisment, print making, drafting design, and multi-media design.  I also have limited experience in landscaping, crop production/ maintenance, blacksmithing, and metal casting.  Over all I enjoy learning a wide variety of tasks as well as putting this knowledge to use. </p>
+	    <div class="content-wrap">
+       		 <h1>John Casey</h1>
+       		 <h2>Web Designer</h2>
+</div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
+		  <div class="content-wrap"><!---start new div-->
         <h2>Featured Projects</h2>
         <p>View selected projects below. More information can be found at <a href="http://christinatruong.com">christinatruong.com</a>.</p>
+		  
 
         <!-- Copy the whole <section> block to add more projects. -->
-        <section>
+	    <!---- projet one example------>
+        <section class="project-item">
+			<img src="placeholder images/thumbnail-1.jpg" alt="Panda">
           <h3>LinkedIn Courses</h3>
-          <img src="placeholder images/thumbnail-1.jpg" alt="Panda">
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          <a class="btn" href="https://www.linkedin.com/learning/css-essential-training-3/project-styling-links?autoplay=true&leis=LTI&resume=false&u=56744281" target="_blank">View project / case study</a>
-        </section>
+          
+          <p>Project on LinkedIn Learning</p>
+			      <a class="btn" href="https://www.linkedin.com/learning/css-essential-training-3/project-styling-links?autoplay=true&leis=LTI&resume=false&u=56744281" target="_blank">View project / case study</a>	 
+		</section>
+    
+			   <section class="project-item">
+				      <img src="placeholder images/UNCG-MAG,Cover.png" alt="Panda">
+          <h3>Competition</h3>
+       
+          <p>UNCG Magazine Competition design</p>
+		</section>
+			  
+			   <section class="project-item">
+				   <img src="placeholder images/Paw logo-1 copy.jpg" alt="logo">
+          <h3>UNCG Project</h3>
+          
+          <p>Bran Husky Adoption logo</p>
+		</section>
         <!-- End of Project block. -->
+			 
+		  </div>
       </section>
+		
+		
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section>
-        <h2 class="work-exp">Work Experience</h2>
-        <p>Below is the job I currently have and plan on expanding soon with more reputable businesses</p>
+		  <div class="content-wrap"><!-------second div---->
+        <h2 class="work">Work Experience</h2>
+        <p>Below is the job I currently have as well as projects I have done.  I plan on expanding soon with more reputable businesses</p>
 
         <!-- Copy this whole <section> block to add more jobs. -->
         <section>
           <h3>Bar lead</h3>
           <p>Harris Teeter</p>
           <p>2017</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Optional list:</p>
+          <p>Work as a bar lead with experience in markwting for prodeucts sold and future planograms for a multi-million dollar corporation.</p>
         
+          <h3>Hookah Bar Manager</h3>
+          <p>Arabian Nights</p>
+          <p>2014</p>
+          <p>Worked with a local buisiiness for advertisment and management of Arabian Nights Hookah bar .</p>
+		  <h3>Hookah Bar Manager</h3>
+          <p>Arabian Nights</p>
+          <p>2014</p>
+          <p>Worked with a local buisiiness for advertisment and management of Arabian Nights Hookah bar .</p>
+       
+           <h3>Food Truck Redesign</h3>
+          <p>Mystical Sunshine Caribbean Eatery</p>
+          <p>2014</p>
+          <p>Overhaul redesign of local Caribbean Food Truck.  </p>
         </section>
         <!-- End of Job block. -->
+		  </div>
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="edu">
+		  <div class="content-wrap"><!-------third div---->
         <h2>Education</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->
@@ -60,12 +100,14 @@
 			<p>Learning: PHP</p>
         </section>
         <!-- End of School block. -->
+		  </div>
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
+		  <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
-
+			 
         <!-- Social media and contact links. Add or remove any networks. -->
         <ul>
           <li><a href="mailto:email@example.com">email@example.com</a></li>
@@ -74,9 +116,11 @@
           <li><a href="#" target="_blank">LinkedIn</a></li>
           <li><a href="#" target="_blank">Facebook</a></li>
         </ul>
+		  </div>
       </footer>
     </main>
   </body>
 </html>
 
-<!--   https://wcet.waketech.edu/jacasey/WEB210/Assignment3Start/index.html   --->
+<!--  https://wcet.waketech.edu/jacasey/WEB210/Lesson03/index.html   --->
+<!--    https://github.com/jacasey7271/Lesson03.git     -->
